@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae - Vekky James Yalajama</title>
+    <style>
+        /* Gaya Umum */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        /* Gaya Gambar Utama */
+        .main-image-container {
+            text-align: center; /* Untuk menengahkan gambar */
+            margin-bottom: 30px; /* Jarak antara gambar dan CV */
+            background-color: #f0f0f0; /* Latar belakang untuk area gambar */
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .main-image {
+            max-width: 100%; /* Gambar akan memenuhi lebar container, tapi tidak lebih dari aslinya */
+            height: auto; /* Tinggi akan menyesuaikan agar gambar tidak terdistorsi */
+            border: 5px solid #007bff; /* Bingkai pada gambar */
+            border-radius: 5px; /* Sedikit lengkungan pada sudut bingkai */
+            display: block; /* Menghilangkan spasi ekstra di bawah gambar */
+            margin: 0 auto; /* Menengahkan gambar di dalam container */
+        }
+
+        /* Gaya Header */
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #007bff;
+            margin-bottom: 30px;
+        }
+        header h1 {
+            margin: 0;
+            color: #007bff;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 5px 0 0;
+            color: #555;
+            font-size: 1.1em;
+        }
+        /* Gaya Bagian */
+        section {
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px dashed #ccc;
+        }
+        section:last-child {
+            border-bottom: none;
+        }
+        section h2 {
+            color: #333;
+            border-left: 5px solid #007bff;
+            padding-left: 10px;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        .item-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        .item-list li {
+            margin-bottom: 8px;
+        }
+        /* Gaya Tombol */
+        .button-area {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .btn {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="main-image-container">
+            <img src="vekky_foto.jpg" alt="Vekky James Yalajama Memegang Piala" class="main-image">
+        </div>
+
+        <header>
+            <h1>Vekky James Yalajama</h1>
+            <p>Mahasiswa Antusias | Asal: Sulawesi Tengah</p>
+            <p>
+                Email: j96724843@gmail.com | No. HP: 085236418845
+            </p>
+        </header>
+
+        <section>
+            <h2>Ringkasan Profil</h2>
+            <p>
+                Mahasiswa angkatan 2023 di Universitas Klabat (Unklab) dengan semangat belajar yang tinggi dan motivasi kuat untuk mengembangkan diri di berbagai bidang. Memiliki latar belakang dari Sulawesi Tengah dan berpegangan teguh pada nilai-nilai Kristiani Advent. Siap berkontribusi dalam tim dan terbuka terhadap tantangan baru.
+            </p>
+        </section>
+
+        <section>
+            <h2>Pendidikan</h2>
+            <div class="pendidikan-item">
+                <h3>Universitas Klabat (Unklab)</h3>
+                <p>Angkatan Tahun: **2023**</p>
+                <p>Saat ini menempuh pendidikan tinggi, fokus pada pengembangan akademik dan karakter.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Keterampilan</h2>
+            <ul class="item-list">
+                <li>**Keterampilan Komputer Dasar:** Mengoperasikan Microsoft Office (Word, Excel, PowerPoint).</li>
+                <li>**Kerja Tim:** Mampu beradaptasi dan bekerja sama secara efektif dalam lingkungan tim.</li>
+                <li>**Komunikasi:** Memiliki kemampuan komunikasi dasar yang baik.</li>
+                <li>**Inisiatif:** Cepat belajar dan mengambil inisiatif dalam tugas atau proyek.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Informasi Pribadi</h2>
+            <ul class="item-list">
+                <li>**Asal:** Sulawesi Tengah</li>
+                <li>**Agama:** Kristen Advent</li>
+                <li>**Status Pengalaman Profesional:** Belum ada pengalaman kerja profesional (Siap untuk Magang/Volunteering).</li>
+            </ul>
+        </section>
+
+        <div class="button-area">
+            <button class="btn" onclick="window.print()">Cetak CV Ini (Print)</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
